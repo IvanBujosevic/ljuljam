@@ -15,7 +15,7 @@ if (window.DeviceOrientationEvent) {
       }
 
 let ball = {position: {x: 20, y: 100},
-            color: 'pink',};
+            color: 'yellow',};
 canvas = document.getElementById('canvas');
 context = canvas.getContext('2d');
 makeCanvas();
