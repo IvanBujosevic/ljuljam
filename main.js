@@ -55,7 +55,7 @@ function tastatura() {
 }
 
 function deviceOrientationListener(event) {
-  if (event.beta > 5 && ball.position.x<(sirina-20)) {
+  if (event.beta > 5 && ball.position.x<(sirina-200)) {
     ball.position.x += 2;
     makeCanvas();
   }
@@ -67,7 +67,7 @@ function deviceOrientationListener(event) {
     ball.position.y -= 2;
     makeCanvas();
   }
-  if (event.gamma < -5 && ball.position.y<(sirina/3-30)) {
+  if (event.gamma < -5 && ball.position.y<(sirina/3-100)) {
     ball.position.y += 2;
     makeCanvas();
   }
